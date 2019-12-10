@@ -1,0 +1,26 @@
+h1 {
+    font-family: "death star", regular;
+    letter-spacing: 3px;
+    color: yellow;
+}
+ 
+body {
+    background-color: black;
+    background-image: url("https://i.ytimg.com/vi/1iIXx55Orwg/maxresdefault.jpg");
+}
+
+h3 {
+    font-family: "Soleil", book;
+    color: white;
+}
+
+p {
+    font-family: "Soleil", book;
+    color: white;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 2rem;
+}
